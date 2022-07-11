@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class HORARIO_OCUPACION extends Model
 {
     protected $table = 'HORARIO_OCUPACION';
-
+    public $timestamps = false;
     protected $fillable = [
         'ID_OCUPACION',
         'HORA_INICIO',

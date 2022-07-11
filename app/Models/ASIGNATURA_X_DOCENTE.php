@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class ASIGNATURA_X_DOCENTE extends Model
 {
     protected $table = 'ASIGNATURA_X_DOCENTE';
-
+    public $timestamps = false;
     protected $fillable = [
         'ASIGNATURA',
         'CAMPUS',
